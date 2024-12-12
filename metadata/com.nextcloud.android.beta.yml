@@ -14687,9 +14687,24 @@ Builds:
     scandelete:
       - app/src/androidTest/assets
 
-  - versionName: '20241209'
-    versionCode: 20241209
-    commit: 930ed79a08fe12567091c24258704c0aebd7211d
+  - versionName: '20241210'
+    versionCode: 20241210
+    commit: b6adb446523459825f7a6695dcb0e4d509956484
+    subdir: app
+    gradle:
+      - versionDev
+    rm:
+      - user_manual
+    prebuild:
+      - mkdir -p $HOME/.gradle
+      - echo "org.gradle.jvmargs=-Xmx9g -XX:MaxMetaspaceSize=512m -XX:+HeapDumpOnOutOfMemoryError"
+        > $HOME/.gradle/gradle.properties
+    scandelete:
+      - app/src/androidTest/assets
+
+  - versionName: '20241211'
+    versionCode: 20241211
+    commit: fc720a24025b174d3aeeb196060679b019fafaff
     subdir: app
     gradle:
       - versionDev
@@ -14706,5 +14721,5 @@ MaintainerNotes: Tags get removed. See https://github.com/nextcloud/android/issu
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags ^dev
-CurrentVersion: '20241209'
-CurrentVersionCode: 20241209
+CurrentVersion: '20241211'
+CurrentVersionCode: 20241211

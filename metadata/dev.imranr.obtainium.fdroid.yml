@@ -4681,9 +4681,9 @@ Builds:
       - $$reproducible-apk-tools$$/zipalign.py --page-size 16 --pad-like-apksigner
         --replace unaligned.apk $$OUT$$
 
-  - versionName: 1.1.33
-    versionCode: 22901
-    commit: c0968e8991c47c9a1e928812f79e586d06a9d1cf
+  - versionName: 1.1.34
+    versionCode: 22911
+    commit: e5afe7521347c73382534a013c070b9c1da716c5
     submodules: true
     sudo:
       - mkdir -p /home/runner
@@ -4729,9 +4729,9 @@ Builds:
       - $$reproducible-apk-tools$$/zipalign.py --page-size 16 --pad-like-apksigner
         --replace unaligned.apk $$OUT$$
 
-  - versionName: 1.1.33
-    versionCode: 22902
-    commit: c0968e8991c47c9a1e928812f79e586d06a9d1cf
+  - versionName: 1.1.34
+    versionCode: 22912
+    commit: e5afe7521347c73382534a013c070b9c1da716c5
     submodules: true
     sudo:
       - mkdir -p /home/runner
@@ -4777,9 +4777,9 @@ Builds:
       - $$reproducible-apk-tools$$/zipalign.py --page-size 16 --pad-like-apksigner
         --replace unaligned.apk $$OUT$$
 
-  - versionName: 1.1.33
-    versionCode: 22903
-    commit: c0968e8991c47c9a1e928812f79e586d06a9d1cf
+  - versionName: 1.1.34
+    versionCode: 22913
+    commit: e5afe7521347c73382534a013c070b9c1da716c5
     submodules: true
     sudo:
       - mkdir -p /home/runner
@@ -4834,5 +4834,5 @@ VercodeOperation:
   - '%c * 10 + 2'
   - '%c * 10 + 3'
 UpdateCheckData: pubspec.yaml|version:\s.+\+(\d+)|.|version:\s(.+)\+
-CurrentVersion: 1.1.33
-CurrentVersionCode: 22903
+CurrentVersion: 1.1.34
+CurrentVersionCode: 22913
