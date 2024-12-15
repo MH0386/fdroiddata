@@ -20,7 +20,7 @@ Binaries: https://github.com/MH0386/anynotedotai/releases/download/v%v/AnyNote.A
 Builds:
   - versionName: 1.0.23
     versionCode: 23
-    commit: 8a121b1641f12a6765960b2bc793f0a85581c381
+    commit: v1.0.23
     submodules: true
     sudo:
       - mkdir -p /home/runner
