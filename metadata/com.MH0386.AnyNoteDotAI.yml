@@ -18,9 +18,9 @@ Repo: https://github.com/MH0386/anynotedotai.git
 Binaries: https://github.com/MH0386/anynotedotai/releases/download/v%v/AnyNote.AI_v%v.apk
 
 Builds:
-  - versionName: 1.0.22
-    versionCode: 22
-    commit: e458a2da7edfeb3da7e77127123bdb1674d70280
+  - versionName: 1.0.23
+    versionCode: 23
+    commit: 8a121b1641f12a6765960b2bc793f0a85581c381
     submodules: true
     sudo:
       - mkdir -p /home/runner
@@ -70,5 +70,5 @@ AllowedAPKSigningKeys: a444ac204f3e04d1f01909ecc67146123b7dc8e02435994a1de9a3181
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
 UpdateCheckData: pubspec.yaml|version:\s.*\+(\d+)|.|version:\s(.*)\+
-CurrentVersion: 1.0.22
-CurrentVersionCode: 22
+CurrentVersion: 1.0.23
+CurrentVersionCode: 23
